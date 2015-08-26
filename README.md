@@ -13,8 +13,11 @@ calibration info, etc.
 	the software you must have the following items installed:
 
 	Python 3.2+
+
 	matplotlib 1.3+
+
 	numpy 1.5+
+
 	gcc (or favorite C compiler)
 
 
@@ -56,9 +59,11 @@ calibration info, etc.
 
 	a.) The program will encounter a run time error if the T3.out file is not perfectly
 		formatted. So if ends halfway through an event it will crash
+
 	b.) We are experiencing GPS problems on COSMO. It appears the tank is not operating
 		in the correct GPS mode so the GPS second and nanosecond time stamp used
 		for creating folders is wrong. However it appears that T2 time stamps are OK.
+
 	c.) The axes on the plots are not labeled. The units need to be researched. Ricardo
 		or other CDAS expert probably knows what these are.
 	
