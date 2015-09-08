@@ -12,10 +12,10 @@ The code is written using a combination of C and Python 3. Some third party
 Python packages (matplotlib, numpy) are also used. In order to run 
 the software you must have the following items installed:
 
--Python 3.2+
--matplotlib 1.3+
--numpy 1.5+
--gcc (or favorite C compiler)
+- Python 3.2+
+- matplotlib 1.3+
+- numpy 1.5+
+- gcc (or favorite C compiler)
 
 # 1. INPUT DATA
 	
@@ -53,8 +53,8 @@ also save PDF plots of charge, peak and shape histograms. A binary decompressed 
 file is also stored. CAUTION: for a large T3 file it will create potentially thousands of
 new directories. Currently it doesn't store events by month or date.
 
-5.		ISSUES
+# 5. ISSUES
 
--The program will encounter a run time error if the T3.out file is not perfectly formatted. So if ends halfway through an event it will crash
+- The program will encounter a run time error if the T3.out file is not perfectly formatted. So if ends halfway through an event it will crash
 
--The axes on the plots are not labeled. The units need to be researched. Ricardo or other CDAS expert probably knows what these are.
+- The axes on the plots are not labeled. The units need to be researched. Ricardo or other CDAS expert probably knows what these are.
